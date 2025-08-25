@@ -1,2 +1,17 @@
-# Modeling_transition_from_HDDs_to_SSDs
-Project for the course Business, Economic and Financial Data I've take during my MSc in Data Science
+# From Spinning Disks to Solid State: Modeling the Global Transition in Data-Storage Technology
+## Authors
+* Michele De Marinis
+* Matteo Gastaldello
+## Description
+This project analyzes worldwide shipments of Hard Disk Drives (HDD) and Solid State Drives (SSD) using time-series and innovation-diffusion models. Our analysis fits classic and generalized Bass models, the Guseo–Guidolin model, a dynamic regression with ARIMA errors, an unbalanced competition & regime-change model (UCRCD), and standalone ARIMA baselines.
+## Repository structure
+. \
+├─ `README.md` \
+├─ `analysis.R` \
+├─ `HDD_unit_shipments_worldwide.csv` \
+├─ `SSD_unit_shipments_worldwide.csv` \
+├─ `PC_unit_shipments_worldwide.csv` \
+├─ `plots/` \
+│  ├─ `*.pdf`: plots produced by the analysis \
+└─ `report-BEFD.pdf`: report
+
