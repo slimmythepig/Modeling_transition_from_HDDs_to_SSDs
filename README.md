@@ -7,10 +7,10 @@ This project analyzes worldwide shipments of Hard Disk Drives (HDD) and Solid St
 ## Repository structure
 . \
 ├─ `README.md` \
-├─ `analysis.R` \
-├─ `HDD_unit_shipments_worldwide.csv` \
-├─ `SSD_unit_shipments_worldwide.csv` \
-├─ `PC_unit_shipments_worldwide.csv` \
+├─ `analysis.R`: R script implementing the models \
+├─ `HDD_unit_shipments_worldwide.csv`: time series with global HDD shipments \
+├─ `SSD_unit_shipments_worldwide.csv`: time series with global SSD shipments \
+├─ `PC_unit_shipments_worldwide.csv`: time series with global PC shipments \
 ├─ `plots/` \
 │  ├─ `*.pdf`: plots produced by the analysis \
 └─ `report-BEFD.pdf`: report
